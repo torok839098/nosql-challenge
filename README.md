@@ -65,4 +65,11 @@ Here are the questions provided by Eat Safe, Love for exploring the dataset:
 
 These questions will help provide valuable insights into the dataset for Eat Safe, Love magazine.
 
+## References
 
+UK Food Standards Agency https://www.food.gov.uk. (2022). UK food hygiene rating data API. https://ratings.food.gov.uk/open-data/en-GB, Contains public sector information licensed under the Open Government Licence v3.0 3 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/.
+Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
+
+Notes: 
+* I used LA's to help with this assignment, for example I had trouble importing the json file.When I had first started this assignment, I was doing all the queries on Mongosh/terminal. Unfortunately, I noticed I had to be running my queries on my notebook when I was working on Part 2. I had to go back and change the style of the queries. I included the notebook that included the code of what I used which is pasted in the notebook. Therefore, make sure you are reading and following directions!Other sources will be listed in the notebook. 
+  
