@@ -72,4 +72,4 @@ Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follo
 
 Notes: 
 * I used LA's to help with this assignment, for example I had trouble importing the json file.When I had first started this assignment, I was doing all the queries on Mongosh/terminal. Unfortunately, I noticed I had to be running my queries on my notebook when I was working on Part 2. I had to go back and change the style of the queries. I included the notebook that included the code of what I used which is pasted in the notebook. Therefore, make sure you are reading and following directions!Other sources will be listed in the notebook. 
-  
+* Having issues uploading the 'Resources' File due to how large it is. Will figure out how upload that. 
