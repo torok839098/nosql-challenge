@@ -1,19 +1,19 @@
 # nosql-challenge
-Evaluation of ratings data in order to help journalists and food critics decide where to focus future articles.
+Evaluation of ratings data to help journalists and food critics decide where to focus future articles.
 
-In order to help The UK Food Standards Agency as an editor for their food magazine, you will need to accomplish the following:
+To help The UK Food Standards Agency as an editor for their food magazine, you will need to accomplish the following:
 
 - Create a new repository for this project called nosql-challenge. Do not add this homework to an existing repository.
 
 - Clone the new repository to your computer.
 
-- Add your Jupyter notebook starter files and your Resources folder containing establishments.json to this folder.
+- Add your Jupyter Notebook starter files and your Resources folder containing establishments.json to this folder.
 
 - Push the changes to GitHub.
 
 - Utilize the Module 12 files 
 
-## Part 1: Database and Jupyter Notebook Set Up
+## Part 1: Database and Jupyter Notebook Set-Up
 The task involves setting up a MongoDB database named uk_food and importing data from the establishments.json file into a collection named establishments. This process is done using NoSQL_setup_starter.ipynb. After importing the data, libraries such as PyMongo and pprint are imported. An instance of the MongoClient is created to connect to the MongoDB server. The correctness of the database creation and data loading is verified by listing the databases and collections. One document from the establishments collection is retrieved and displayed using find_one and pprint. Finally, the establishments collection is assigned to a variable for further analysis.
 
 
@@ -68,8 +68,8 @@ These questions will help provide valuable insights into the dataset for Eat Saf
 ## References
 
 UK Food Standards Agency https://www.food.gov.uk. (2022). UK food hygiene rating data API. https://ratings.food.gov.uk/open-data/en-GB, Contains public sector information licensed under the Open Government Licence v3.0 3 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/.
-Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
+Accessed Sept 9, 2022 and Sept 12, 2022, with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
 
 Notes: 
-* I used LA's to help with this assignment, for example I had trouble importing the json file.When I had first started this assignment, I was doing all the queries on Mongosh/terminal. Unfortunately, I noticed I had to be running my queries on my notebook when I was working on Part 2. I had to go back and change the style of the queries. I included the notebook that included the code of what I used which is pasted in the notebook. Therefore, make sure you are reading and following directions!Other sources will be listed in the notebook. 
-* Having issues uploading the 'Resources' File due to how large it is. Will figure out how upload that. 
+* I used LA's to help with this assignment, for example, I had trouble importing the JSON file. When I started this assignment, I was doing all the queries on Mongosh/terminal. Unfortunately, I noticed I had to run my queries on my notebook while working on Part 2. I had to go back and change the style of the queries. I included the notebook with the code of what I used which is pasted in the notebook. Therefore, my advice is to make sure you are reading and following directions! Other sources will be listed in the notebook. 
+* Having issues uploading the 'Resources' File due to how large it is. Will figure out how to upload that. 
